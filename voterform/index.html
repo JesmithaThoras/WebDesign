@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="flag.png" style="margin: 10px;">
+            <h4>राष्ट्रीय मतदान सेवा <br>  डेमो पोर्टल</h4>
+            <h4>NATIONAL VOTERS' SERVICES<br>DEMO PORTAL</h4>
+            <img src="vote.png" style="margin: 10px;margin-left: auto;">
+        </header>
+        <div class="start">
+            <form method="post" action="#">
+                <button>A+</button>
+                <button>A-</button>
+                <div class="sel">
+                    <label>Select Language:</label>
+                    <select>
+                        <option>Hindi</option>
+                        <option>English</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <h5>Note: Fields marked with asterisks ( * ) are mandatory</h5>
+        <div class="last">
+            <form>
+                <h4>Type 6<br>[See rule 13(1) and 26]</h4>
+                <h3>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</h3>
+                <p>In service<br><br>Electoral Registration Officer,</p><br>
+                State* <select>
+                    <option>SELECT</option>
+                    <option>Assam</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Tamil Nadu</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                </select>
+                District <select>
+                    <option>SELECT</option>
+                    <option>Mangalore</option>
+                    <option>Bangalore</option>
+                    <option>Mandya</option>
+                    <option>Mysore</option>
+                    <option>Kolara</option>
+                </select><br><br>
+                <label>Legislative Assembly / Parlimentary <br> constituency * </label>
+                <select>
+                    <option>SELECT</option>
+                </select>
+                <p>I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+                <input type="radio" name="val">First time voter<br>
+                <input type="radio" name="val">Due to transfer from other meeting areas.
+                <p>Below are specifications in support of my claim to be included in the electoral rolls.</p>
+                <h3>Mandatory specifications</h3>
+                <br><br>(A)Name*<input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>   
+                <br><br>(B)Surname (if any)*<input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>
+                <br><br>(C)Name of the applicant's relative *<input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>
+                <br><br>Nickname of the applicant's relative *<input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>
+                <br> <br>(D)Type of the relationship *<select>
+                  <option>SELECT</option>
+                </select>
+                <br><br><input type="radio" name="age">(E) Age [on January 1 of the current calender] *<span>2019</span>
+                    <select>
+                        <option>YEAR</option>
+                    </select>
+                    <select>
+                        <option>MONTH</option>
+                    </select>
+              <br>  <br>OR
+                <br> <br><input type="radio" name="age">(F) Date of birth (in the form of day/ month/ year)<input type="date"><br>(if known) *
+               <br> <br> (G) Applicant's gender *<select>
+                           <option>SELECT</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                </select><br><br>
+                <h3>(H) Current address, whose applicant is nominally resident</h3>
+                <br><br>House no.*<input type="number"><input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>   
+                <br><br>
+                Street / area / location * <input type="number"><input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>   
+                <br><br>
+                City / Village: * <input type="number"><input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>   
+                <br><br>
+                Post Office: * <input type="number"><input type="text" placeholder="In English"><input type="text" placeholder="In Regional"><button type="submit"></button>   
+                <br><br>
+                Pin Code *<input type="text">
+                <br><br>
+                State / Union Territory *<select><option>SELECT</option></select>
+                <br><br>
+                District *<select><option>SELECT</option></select>
+                <br><br><hr>
+                Family / Neighbour Epic No. <input type="number"><br>
+                <hr>
+                <h3>Optional specialties</h3>
+                <br><br>(T) Disability (if any)<br><br>
+                <input type="checkbox">Visual impairment<input type="checkbox"> Speech and hearing impairment <input type="checkbox">  Motion disabling <input type="checkbox">  other<input type="text"><br>
+                <br><br>(Th) Email ID (optional)<input type="email">   
+                <br><br>
+                (D) mobile number (optional)   +91<input type="tel"><br><br>
+                <h3>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)<a href="#">List of supported documents</a></h3>
+               <br><br> Your photo*<br>
+                <input type="file"><br><br>
+                Age proof *<br>
+                <input type="file">Document Type *<select><option>SELECT</option></select>
+                <br><br>
+                Address proof *<br>
+                <input type="file">Document Type *<select><option>SELECT</option></select>
+                <br><br>
+                <h3>Declaration</h3>
+                <p>I declare I declare that according to my best knowledge and belief<br>
+                I am a citizen of India and of my birth;</p><br>
+                City / Village: <input type="text">    
+                State *<select><option>SELECT</option></select> District *<select><option>SELECT</option></select>
+                <br><br>
+                Date *<input type="date">
+                <p> I am a nominally resident in the address given in the above (date, month, year) above;<br><br>I have not applied to include my name in the electoral roll for any other constituency;</p>
+                <br>
+                <input type="radio" name="de">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+                <br><br>Or<br><br>
+                <input type="radio" name="de">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.
+                <br><hr>
+                Location *<input type="text"> Date *<input type="date"><br>
+                <p>I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p>
+                Captcha<img src="captcha.png" width="130" height="60"><input type="text"><br>
+                <button type="submit" class="but">Reset</button><button type="submit" class="but">Submit</button>
+            </form>
+        </div>
+        <footer>
+                <p>Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</p>
+         </footer>
+    </body>
+</html>
