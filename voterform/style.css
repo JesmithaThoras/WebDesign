@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Jun, 2021, 9:11:36 PM
+    Author     : HP
+*/
+body{
+    margin:0;
+}
+header{
+    background: black;
+    height: 80px;
+    display: flex;
+    color: white;
+}
+.start form{
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+}
+.start button{
+    margin:0px 20px;
+    width:50px;
+    background: black;
+    color: white;
+}
+.sel{
+    float: right;
+}
+.sel label,select{
+    margin: 0px 20px;
+}
+h5{
+    color: red;
+    margin-left:200px;
+    margin-bottom: 0px;
+}
+.last{
+    margin: 40px 300px;
+    border:1px solid graytext;
+    background-color: #e3ecea;
+}
+.last h4{
+    background: #987a98;
+    padding: 15px;
+    margin: 0px;
+}
+
+h3{
+    background: #9a5f6a;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px 0px;
+    border-radius: 3px;
+}
+footer{
+    background: black;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+form{
+    padding:20px;
+}
+form input{
+    margin:10px;
+}
+form button{
+    background-color: grey;
+    width:50px;
+    height:30px;
+}
+.but{
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+    width: fit-content;
+}
+header h4{
+    text-align: center;
+    margin: 10px 200px;
+    font-size: 20px;
+}
+h4 a{
+    float: right;
+}
