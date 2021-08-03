@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 May, 2021, 3:07:44 PM
+    Author     : HP
+*/
+*{
+    background: #efd4ba;
+}
+.contents{
+    width: 70%;
+    border:solid #ad6868 medium;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px auto;
+    text-align: justify;
+}
+.contents img{
+    width:500px;
+    height:350px;
+    
+}
+
+.contents p {
+    margin-top: -260px;
+    margin-left: 500px;
+    width: 49%;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    height:200px;
+}
+
+.footer2 a{
+   margin: 20px;
+   background: #ad6868;
+   color:#efd4ba;
+}
+
+.start{
+    margin: 20px auto;
+    text-align: justify;
+    width: 80%;
+}
+
+footer img{
+    height:30px;
+    width:30px;
+    border-radius: 10px;
+}
+nav{
+    background: #ad6868;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer2{
+    text-align: center;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: darkslategray;
+}
+figure{
+    margin: 0px;
+}
+figcaption{
+    font-style:  oblique;
+    font-size: 10px;
+}
+#paraoffoot{
+    text-align: center;
+    background: #ad6868;
+}
